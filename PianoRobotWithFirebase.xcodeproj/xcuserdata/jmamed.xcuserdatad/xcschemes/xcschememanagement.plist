@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>PianoRobotWithFirebase.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>0</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>C84F03491DE624D5002C6AAC</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C84F035D1DE624D6002C6AAC</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C84F03681DE624D7002C6AAC</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

@@ -1,0 +1,747 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1BCB28F609B491D60FFD31A3 /* Pods_PianoRobotWithFirebaseTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B33862000B8F06894A1531D /* Pods_PianoRobotWithFirebaseTests.framework */; };
+		65A34D6B0DCE3979F98F90AD /* Pods_PianoRobotWithFirebase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F878810ADA2CF68889EC12B9 /* Pods_PianoRobotWithFirebase.framework */; };
+		AFBA6BBBDAE1060FB9C86A50 /* Pods_PianoRobotWithFirebaseUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FF7D4B67F20CA0C2D419CEC /* Pods_PianoRobotWithFirebaseUITests.framework */; };
+		C84F034E1DE624D6002C6AAC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C84F034D1DE624D6002C6AAC /* AppDelegate.swift */; };
+		C84F03501DE624D6002C6AAC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C84F034F1DE624D6002C6AAC /* ViewController.swift */; };
+		C84F03531DE624D6002C6AAC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C84F03511DE624D6002C6AAC /* Main.storyboard */; };
+		C84F03551DE624D6002C6AAC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C84F03541DE624D6002C6AAC /* Assets.xcassets */; };
+		C84F03581DE624D6002C6AAC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C84F03561DE624D6002C6AAC /* LaunchScreen.storyboard */; };
+		C84F03631DE624D7002C6AAC /* PianoRobotWithFirebaseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C84F03621DE624D7002C6AAC /* PianoRobotWithFirebaseTests.swift */; };
+		C84F036E1DE624D7002C6AAC /* PianoRobotWithFirebaseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C84F036D1DE624D7002C6AAC /* PianoRobotWithFirebaseUITests.swift */; };
+		C84F037C1DE62590002C6AAC /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C84F037B1DE62590002C6AAC /* GoogleService-Info.plist */; };
+		C84F037E1DE62BB4002C6AAC /* RPiCommandTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C84F037D1DE62BB4002C6AAC /* RPiCommandTableViewController.swift */; };
+		C84F03801DE6325D002C6AAC /* RPiCommandViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C84F037F1DE6325D002C6AAC /* RPiCommandViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C84F035F1DE624D7002C6AAC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C84F03421DE624D5002C6AAC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C84F03491DE624D5002C6AAC;
+			remoteInfo = PianoRobotWithFirebase;
+		};
+		C84F036A1DE624D7002C6AAC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C84F03421DE624D5002C6AAC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C84F03491DE624D5002C6AAC;
+			remoteInfo = PianoRobotWithFirebase;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1B33862000B8F06894A1531D /* Pods_PianoRobotWithFirebaseTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PianoRobotWithFirebaseTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		39443231F0F93A4D02FB07DA /* Pods-PianoRobotWithFirebaseTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PianoRobotWithFirebaseTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PianoRobotWithFirebaseTests/Pods-PianoRobotWithFirebaseTests.release.xcconfig"; sourceTree = "<group>"; };
+		59598B367282F5BE69DED1CF /* Pods-PianoRobotWithFirebaseUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PianoRobotWithFirebaseUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PianoRobotWithFirebaseUITests/Pods-PianoRobotWithFirebaseUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		62C59BD6E1FCD0207732BB61 /* Pods-PianoRobotWithFirebaseTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PianoRobotWithFirebaseTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PianoRobotWithFirebaseTests/Pods-PianoRobotWithFirebaseTests.debug.xcconfig"; sourceTree = "<group>"; };
+		7FF7D4B67F20CA0C2D419CEC /* Pods_PianoRobotWithFirebaseUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PianoRobotWithFirebaseUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB6689CB473357A6669B2179 /* Pods-PianoRobotWithFirebase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PianoRobotWithFirebase.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PianoRobotWithFirebase/Pods-PianoRobotWithFirebase.debug.xcconfig"; sourceTree = "<group>"; };
+		C84F034A1DE624D6002C6AAC /* PianoRobotWithFirebase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PianoRobotWithFirebase.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C84F034D1DE624D6002C6AAC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C84F034F1DE624D6002C6AAC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C84F03521DE624D6002C6AAC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C84F03541DE624D6002C6AAC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C84F03571DE624D6002C6AAC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C84F03591DE624D6002C6AAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C84F035E1DE624D7002C6AAC /* PianoRobotWithFirebaseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PianoRobotWithFirebaseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C84F03621DE624D7002C6AAC /* PianoRobotWithFirebaseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PianoRobotWithFirebaseTests.swift; sourceTree = "<group>"; };
+		C84F03641DE624D7002C6AAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C84F03691DE624D7002C6AAC /* PianoRobotWithFirebaseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PianoRobotWithFirebaseUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C84F036D1DE624D7002C6AAC /* PianoRobotWithFirebaseUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PianoRobotWithFirebaseUITests.swift; sourceTree = "<group>"; };
+		C84F036F1DE624D7002C6AAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C84F037B1DE62590002C6AAC /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		C84F037D1DE62BB4002C6AAC /* RPiCommandTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RPiCommandTableViewController.swift; sourceTree = "<group>"; };
+		C84F037F1DE6325D002C6AAC /* RPiCommandViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RPiCommandViewController.swift; path = ../RPiCommandViewController.swift; sourceTree = "<group>"; };
+		E695B5A327587674A4CD4CBC /* Pods-PianoRobotWithFirebaseUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PianoRobotWithFirebaseUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PianoRobotWithFirebaseUITests/Pods-PianoRobotWithFirebaseUITests.release.xcconfig"; sourceTree = "<group>"; };
+		EFA9D4C3BCB69103D2ED6728 /* Pods-PianoRobotWithFirebase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PianoRobotWithFirebase.release.xcconfig"; path = "Pods/Target Support Files/Pods-PianoRobotWithFirebase/Pods-PianoRobotWithFirebase.release.xcconfig"; sourceTree = "<group>"; };
+		F878810ADA2CF68889EC12B9 /* Pods_PianoRobotWithFirebase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PianoRobotWithFirebase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C84F03471DE624D5002C6AAC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65A34D6B0DCE3979F98F90AD /* Pods_PianoRobotWithFirebase.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C84F035B1DE624D6002C6AAC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BCB28F609B491D60FFD31A3 /* Pods_PianoRobotWithFirebaseTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C84F03661DE624D7002C6AAC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFBA6BBBDAE1060FB9C86A50 /* Pods_PianoRobotWithFirebaseUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2D4488339E8AE9192E71AAE2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AB6689CB473357A6669B2179 /* Pods-PianoRobotWithFirebase.debug.xcconfig */,
+				EFA9D4C3BCB69103D2ED6728 /* Pods-PianoRobotWithFirebase.release.xcconfig */,
+				62C59BD6E1FCD0207732BB61 /* Pods-PianoRobotWithFirebaseTests.debug.xcconfig */,
+				39443231F0F93A4D02FB07DA /* Pods-PianoRobotWithFirebaseTests.release.xcconfig */,
+				59598B367282F5BE69DED1CF /* Pods-PianoRobotWithFirebaseUITests.debug.xcconfig */,
+				E695B5A327587674A4CD4CBC /* Pods-PianoRobotWithFirebaseUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		6CB5B9E8AEC2526CA2F84F82 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F878810ADA2CF68889EC12B9 /* Pods_PianoRobotWithFirebase.framework */,
+				1B33862000B8F06894A1531D /* Pods_PianoRobotWithFirebaseTests.framework */,
+				7FF7D4B67F20CA0C2D419CEC /* Pods_PianoRobotWithFirebaseUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C84F03411DE624D5002C6AAC = {
+			isa = PBXGroup;
+			children = (
+				C84F034C1DE624D6002C6AAC /* PianoRobotWithFirebase */,
+				C84F03611DE624D7002C6AAC /* PianoRobotWithFirebaseTests */,
+				C84F036C1DE624D7002C6AAC /* PianoRobotWithFirebaseUITests */,
+				C84F034B1DE624D6002C6AAC /* Products */,
+				2D4488339E8AE9192E71AAE2 /* Pods */,
+				6CB5B9E8AEC2526CA2F84F82 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C84F034B1DE624D6002C6AAC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C84F034A1DE624D6002C6AAC /* PianoRobotWithFirebase.app */,
+				C84F035E1DE624D7002C6AAC /* PianoRobotWithFirebaseTests.xctest */,
+				C84F03691DE624D7002C6AAC /* PianoRobotWithFirebaseUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C84F034C1DE624D6002C6AAC /* PianoRobotWithFirebase */ = {
+			isa = PBXGroup;
+			children = (
+				C84F037F1DE6325D002C6AAC /* RPiCommandViewController.swift */,
+				C84F034D1DE624D6002C6AAC /* AppDelegate.swift */,
+				C84F034F1DE624D6002C6AAC /* ViewController.swift */,
+				C84F037D1DE62BB4002C6AAC /* RPiCommandTableViewController.swift */,
+				C84F03511DE624D6002C6AAC /* Main.storyboard */,
+				C84F03541DE624D6002C6AAC /* Assets.xcassets */,
+				C84F03561DE624D6002C6AAC /* LaunchScreen.storyboard */,
+				C84F037B1DE62590002C6AAC /* GoogleService-Info.plist */,
+				C84F03591DE624D6002C6AAC /* Info.plist */,
+			);
+			path = PianoRobotWithFirebase;
+			sourceTree = "<group>";
+		};
+		C84F03611DE624D7002C6AAC /* PianoRobotWithFirebaseTests */ = {
+			isa = PBXGroup;
+			children = (
+				C84F03621DE624D7002C6AAC /* PianoRobotWithFirebaseTests.swift */,
+				C84F03641DE624D7002C6AAC /* Info.plist */,
+			);
+			path = PianoRobotWithFirebaseTests;
+			sourceTree = "<group>";
+		};
+		C84F036C1DE624D7002C6AAC /* PianoRobotWithFirebaseUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C84F036D1DE624D7002C6AAC /* PianoRobotWithFirebaseUITests.swift */,
+				C84F036F1DE624D7002C6AAC /* Info.plist */,
+			);
+			path = PianoRobotWithFirebaseUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C84F03491DE624D5002C6AAC /* PianoRobotWithFirebase */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C84F03721DE624D7002C6AAC /* Build configuration list for PBXNativeTarget "PianoRobotWithFirebase" */;
+			buildPhases = (
+				D1D3FF7954D653A00B3833A2 /* [CP] Check Pods Manifest.lock */,
+				C84F03461DE624D5002C6AAC /* Sources */,
+				C84F03471DE624D5002C6AAC /* Frameworks */,
+				C84F03481DE624D5002C6AAC /* Resources */,
+				F2017EF2BE6AC0AA773237F0 /* [CP] Embed Pods Frameworks */,
+				45296F2E52896526F0568F00 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PianoRobotWithFirebase;
+			productName = PianoRobotWithFirebase;
+			productReference = C84F034A1DE624D6002C6AAC /* PianoRobotWithFirebase.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C84F035D1DE624D6002C6AAC /* PianoRobotWithFirebaseTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C84F03751DE624D7002C6AAC /* Build configuration list for PBXNativeTarget "PianoRobotWithFirebaseTests" */;
+			buildPhases = (
+				353EC2C1699B53C7380DA812 /* [CP] Check Pods Manifest.lock */,
+				C84F035A1DE624D6002C6AAC /* Sources */,
+				C84F035B1DE624D6002C6AAC /* Frameworks */,
+				C84F035C1DE624D6002C6AAC /* Resources */,
+				8DCCAE075210F3D8F8D386C6 /* [CP] Embed Pods Frameworks */,
+				A1C8ED15D87D0B0CE97A05BF /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C84F03601DE624D7002C6AAC /* PBXTargetDependency */,
+			);
+			name = PianoRobotWithFirebaseTests;
+			productName = PianoRobotWithFirebaseTests;
+			productReference = C84F035E1DE624D7002C6AAC /* PianoRobotWithFirebaseTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C84F03681DE624D7002C6AAC /* PianoRobotWithFirebaseUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C84F03781DE624D7002C6AAC /* Build configuration list for PBXNativeTarget "PianoRobotWithFirebaseUITests" */;
+			buildPhases = (
+				64C09B337A3113F8E8BCB9DA /* [CP] Check Pods Manifest.lock */,
+				C84F03651DE624D7002C6AAC /* Sources */,
+				C84F03661DE624D7002C6AAC /* Frameworks */,
+				C84F03671DE624D7002C6AAC /* Resources */,
+				623104A2A69B960C7CA053A5 /* [CP] Embed Pods Frameworks */,
+				4C9413798B1CA0DB828DB1EC /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C84F036B1DE624D7002C6AAC /* PBXTargetDependency */,
+			);
+			name = PianoRobotWithFirebaseUITests;
+			productName = PianoRobotWithFirebaseUITests;
+			productReference = C84F03691DE624D7002C6AAC /* PianoRobotWithFirebaseUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C84F03421DE624D5002C6AAC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "Mamed Technologies";
+				TargetAttributes = {
+					C84F03491DE624D5002C6AAC = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 8H3SD4MBD6;
+						ProvisioningStyle = Automatic;
+					};
+					C84F035D1DE624D6002C6AAC = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 8H3SD4MBD6;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C84F03491DE624D5002C6AAC;
+					};
+					C84F03681DE624D7002C6AAC = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 8H3SD4MBD6;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C84F03491DE624D5002C6AAC;
+					};
+				};
+			};
+			buildConfigurationList = C84F03451DE624D5002C6AAC /* Build configuration list for PBXProject "PianoRobotWithFirebase" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C84F03411DE624D5002C6AAC;
+			productRefGroup = C84F034B1DE624D6002C6AAC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C84F03491DE624D5002C6AAC /* PianoRobotWithFirebase */,
+				C84F035D1DE624D6002C6AAC /* PianoRobotWithFirebaseTests */,
+				C84F03681DE624D7002C6AAC /* PianoRobotWithFirebaseUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C84F03481DE624D5002C6AAC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C84F03581DE624D6002C6AAC /* LaunchScreen.storyboard in Resources */,
+				C84F037C1DE62590002C6AAC /* GoogleService-Info.plist in Resources */,
+				C84F03551DE624D6002C6AAC /* Assets.xcassets in Resources */,
+				C84F03531DE624D6002C6AAC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C84F035C1DE624D6002C6AAC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C84F03671DE624D7002C6AAC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		353EC2C1699B53C7380DA812 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		45296F2E52896526F0568F00 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PianoRobotWithFirebase/Pods-PianoRobotWithFirebase-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4C9413798B1CA0DB828DB1EC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PianoRobotWithFirebaseUITests/Pods-PianoRobotWithFirebaseUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		623104A2A69B960C7CA053A5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PianoRobotWithFirebaseUITests/Pods-PianoRobotWithFirebaseUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		64C09B337A3113F8E8BCB9DA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8DCCAE075210F3D8F8D386C6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PianoRobotWithFirebaseTests/Pods-PianoRobotWithFirebaseTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A1C8ED15D87D0B0CE97A05BF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PianoRobotWithFirebaseTests/Pods-PianoRobotWithFirebaseTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D1D3FF7954D653A00B3833A2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F2017EF2BE6AC0AA773237F0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PianoRobotWithFirebase/Pods-PianoRobotWithFirebase-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C84F03461DE624D5002C6AAC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C84F037E1DE62BB4002C6AAC /* RPiCommandTableViewController.swift in Sources */,
+				C84F03501DE624D6002C6AAC /* ViewController.swift in Sources */,
+				C84F03801DE6325D002C6AAC /* RPiCommandViewController.swift in Sources */,
+				C84F034E1DE624D6002C6AAC /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C84F035A1DE624D6002C6AAC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C84F03631DE624D7002C6AAC /* PianoRobotWithFirebaseTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C84F03651DE624D7002C6AAC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C84F036E1DE624D7002C6AAC /* PianoRobotWithFirebaseUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C84F03601DE624D7002C6AAC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C84F03491DE624D5002C6AAC /* PianoRobotWithFirebase */;
+			targetProxy = C84F035F1DE624D7002C6AAC /* PBXContainerItemProxy */;
+		};
+		C84F036B1DE624D7002C6AAC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C84F03491DE624D5002C6AAC /* PianoRobotWithFirebase */;
+			targetProxy = C84F036A1DE624D7002C6AAC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C84F03511DE624D6002C6AAC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C84F03521DE624D6002C6AAC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C84F03561DE624D6002C6AAC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C84F03571DE624D6002C6AAC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C84F03701DE624D7002C6AAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C84F03711DE624D7002C6AAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C84F03731DE624D7002C6AAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AB6689CB473357A6669B2179 /* Pods-PianoRobotWithFirebase.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8H3SD4MBD6;
+				INFOPLIST_FILE = PianoRobotWithFirebase/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Mamed.DB-Test3";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		C84F03741DE624D7002C6AAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EFA9D4C3BCB69103D2ED6728 /* Pods-PianoRobotWithFirebase.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8H3SD4MBD6;
+				INFOPLIST_FILE = PianoRobotWithFirebase/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Mamed.DB-Test3";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		C84F03761DE624D7002C6AAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 62C59BD6E1FCD0207732BB61 /* Pods-PianoRobotWithFirebaseTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 8H3SD4MBD6;
+				INFOPLIST_FILE = PianoRobotWithFirebaseTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Mamed.PianoRobotWithFirebaseTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PianoRobotWithFirebase.app/PianoRobotWithFirebase";
+			};
+			name = Debug;
+		};
+		C84F03771DE624D7002C6AAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 39443231F0F93A4D02FB07DA /* Pods-PianoRobotWithFirebaseTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 8H3SD4MBD6;
+				INFOPLIST_FILE = PianoRobotWithFirebaseTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Mamed.PianoRobotWithFirebaseTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PianoRobotWithFirebase.app/PianoRobotWithFirebase";
+			};
+			name = Release;
+		};
+		C84F03791DE624D7002C6AAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 59598B367282F5BE69DED1CF /* Pods-PianoRobotWithFirebaseUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 8H3SD4MBD6;
+				INFOPLIST_FILE = PianoRobotWithFirebaseUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Mamed.PianoRobotWithFirebaseUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = PianoRobotWithFirebase;
+			};
+			name = Debug;
+		};
+		C84F037A1DE624D7002C6AAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E695B5A327587674A4CD4CBC /* Pods-PianoRobotWithFirebaseUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 8H3SD4MBD6;
+				INFOPLIST_FILE = PianoRobotWithFirebaseUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Mamed.PianoRobotWithFirebaseUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = PianoRobotWithFirebase;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C84F03451DE624D5002C6AAC /* Build configuration list for PBXProject "PianoRobotWithFirebase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C84F03701DE624D7002C6AAC /* Debug */,
+				C84F03711DE624D7002C6AAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C84F03721DE624D7002C6AAC /* Build configuration list for PBXNativeTarget "PianoRobotWithFirebase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C84F03731DE624D7002C6AAC /* Debug */,
+				C84F03741DE624D7002C6AAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C84F03751DE624D7002C6AAC /* Build configuration list for PBXNativeTarget "PianoRobotWithFirebaseTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C84F03761DE624D7002C6AAC /* Debug */,
+				C84F03771DE624D7002C6AAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C84F03781DE624D7002C6AAC /* Build configuration list for PBXNativeTarget "PianoRobotWithFirebaseUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C84F03791DE624D7002C6AAC /* Debug */,
+				C84F037A1DE624D7002C6AAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C84F03421DE624D5002C6AAC /* Project object */;
+}

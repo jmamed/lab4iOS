@@ -1,0 +1,6 @@
+framework module Pods_PianoRobotWithFirebaseUITests {
+  umbrella header "Pods-PianoRobotWithFirebaseUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
